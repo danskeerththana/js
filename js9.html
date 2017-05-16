@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<htmal>
+  <body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+  <script>
+
+var person = {
+    firstname: "john",
+    lastname : "doe",
+    age      :50,
+    eyeclor  :"blue"
+};
+
+  document.getElementById("demo").innerHTML =
+  person.firstname + " is" + person.age + "year old.";
+
+
+
+
+  var person = {
+      firstname: "john",
+      lastname : "doe",
+      age      :50,
+      eyeclor  :"blue"
+  };
+
+    document.getElementById("demo1").innerHTML =
+    person.firstname + " is " + " eyeclor" + " is "  +person.eyeclor +".";
+
+    var person = {
+        firstname: "john",
+        lastname : "doe",
+        age      :50,
+        eyeclor  :"blue"
+    };
+
+      document.getElementById("demo2").innerHTML =
+      person["firstname"] + " is" + person["age"]+ "year old.";
+
+
+
+      </script>
+
+    </body>
+  </html>
